@@ -10,10 +10,10 @@ def main():
     epochs = 1000
 
     # Set file paths for training, validation, and testing
-    train_files = [f"train{i}.csv" for i in range(10)]
-    valid_files = [f"valid{i}.csv" for i in range(10)]
-    test1 = "test.csv"
-    test2and3 = "test1.csv"
+    train_files = [f"train/train{i}.csv" for i in range(10)]
+    valid_files = [f"valid/valid{i}.csv" for i in range(10)]
+    test1 = "test/test.csv"
+    test2and3 = "test/test1.csv"
 
     # Run Part 1 - Binary
     print("====================================================")
